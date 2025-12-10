@@ -1,7 +1,7 @@
 // ...existing code...
 // MongoDB connection using official driver
 const { MongoClient } = require('mongodb');
-const mongoUri = 'mongodb://localhost:27017';
+const mongoUri = 'mongodb+srv://subhamsahoo7327_db_user:jlsg6oahy6ECSolT@cluster0.omjfdca.mongodb.net/';
 const dbName = 'guidora';
 let db;
 
