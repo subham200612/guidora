@@ -31,7 +31,7 @@ const fs = require('fs');
 const nodemailer = require('nodemailer');
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/guidora', {
+mongoose.connect('mongodb+srv://subhamsahoo7327_db_user:jlsg6oahy6ECSolT@cluster0.omjfdca.mongodb.net/guidora', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
